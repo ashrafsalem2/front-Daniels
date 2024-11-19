@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Daniels is a responsive creative template"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, personal, corporate, business, parallax, creative, agency"
+    />
+    <!-- title -->
+    <title>Daniels</title>
+    <!-- favicon -->
+    <link href="imgs/favicon.ico" rel="icon" type="image/png" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- glightbox for images gallery -->
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="navbarSupportedContent">
+    <!-- PreLoad -->
+    <div class="loading_div1"></div>
+    <div class="loading_div2"></div>
+    <div class="loading_spinner">
+      <div
+        class="spinner-border"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <!-- Nav and Hero Sections -->
+    <header id="header">
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bolder" href="#">Daniels</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            onclick="closePanel()"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2 py-2 ms-auto" onclick="closePanel()">
+                <a class="nav-link close_item"
+                  ><span> <i class="fa-solid fa-close fa-1x"></i> </span
+                ></a>
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  ><span>Home</span></a
+                >
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link" href="#about"><span>About</span></a>
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link" href="#services"><span>Services</span></a>
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link" href="#works"><span>Works</span></a>
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link" href="#clients"><span>Clients</span></a>
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link" href="#team"><span>Team</span></a>
+              </li>
+              <li class="nav-item px-2 py-2">
+                <a class="nav-link" href="#contact"><span>Contact</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section id="home" class="vh-100">
+        <div class="home_overlay w-100 h-100">
+          <div
+            class="home_content w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="home_info text-center">
+              <h1>Hello</h1>
+              <p>
+                I Am
+                <span class="text-slider-items d-none"
+                  >Larry Daniels, Designer, Developer</span
+                >
+                <strong class="text-slider"></strong>
+              </p>
+            </div>
+            <div class="social_icon d-flex">
+              <a href="#" class="me-1">
+                <span class="d-flex justify-content-center align-items-center"
+                  ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
+                ></span>
+              </a>
+              <a href="#" class="me-1">
+                <span class="d-flex justify-content-center align-items-center"
+                  ><i class="fa-brands fa-twitter" aria-hidden="true"></i
+                ></span>
+              </a>
+              <a href="#" class="me-1">
+                <span class="d-flex justify-content-center align-items-center"
+                  ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
+                ></span>
+              </a>
+              <a href="#" class="me-1">
+                <span class="d-flex justify-content-center align-items-center"
+                  ><i class="fa-brands fa-behance" aria-hidden="true"></i
+                ></span>
+              </a>
+              <a href="#" class="me-1">
+                <span class="d-flex justify-content-center align-items-center"
+                  ><i class="fa-brands fa-youtube" aria-hidden="true"></i
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="">
+      <!-- About Me -->
+      <section id="about" class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-5">
+              <div class="about_img">
+                <img src="./imgs/hero.jpg" alt="about img" />
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-7">
+              <div class="about_info">
+                <h2>About Me.</h2>
+                <h3 class="pb-2">UI / UX Designer & Web Developer</h3>
+                <p class="lead pb-2">
+                  I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  It has survived not only five centuries, but also the leap
+                  into electronic but also the leap into electronic typesetting,
+                  remaining essentially unchanged. It was popularised in the
+                  1960s with the release of Letraset sheets containing
+                </p>
+                <div
+                  class="progress mb-4"
+                  role="progressbar"
+                  aria-label="Info example"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar bg-info text-dark p_95"
+                    style="width: 0%"
+                  >
+                    <span> Web Design</span><span> 95%</span>
+                  </div>
+                </div>
+                <div
+                  class="progress mb-4"
+                  role="progressbar"
+                  aria-label="Info example"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar bg-info text-dark p_80"
+                    style="width: 0%"
+                  >
+                    <span> Branding</span><span> 80%</span>
+                  </div>
+                </div>
+                <div
+                  class="progress mb-4"
+                  role="progressbar"
+                  aria-label="Info example"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar bg-info text-dark p_90"
+                    style="width: 0%"
+                  >
+                    <span> Development</span><span> 90%</span>
+                  </div>
+                </div>
+                <div class="about_btn mt-5">
+                  <a href="" class="btn btn_about active">Download C.V</a>
+                  <a href="" class="btn btn_about">Contact Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="py-5">
+        <div class="container my-5">
+          <header>
+            <div class="heading_content">
+              <h3>Services.</h3>
+            </div>
+          </header>
+          <div class="row my-5 g-4">
+            <div class="col-md-12 col-lg-4">
+              <div
+                class="card rounded-1 bg-white text-center d-sm-flex justify-content-center align-items-center"
+              >
+                <div class="logo mt-5">
+                  <i class="fa fa-laptop fa-1x"></i>
+                </div>
+                <h3>Web Design</h3>
+                <p class="text-muted col-10 pb-4">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div
+                class="card rounded-1 bg-white text-center d-sm-flex justify-content-center align-items-center"
+              >
+                <div class="logo mt-5">
+                  <i class="fa fa-bullhorn fa-1x"></i>
+                </div>
+                <h3>Branding</h3>
+                <p class="text-muted col-10 pb-4">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div
+                class="card rounded-1 bg-white text-center d-sm-flex justify-content-center align-items-center"
+              >
+                <div class="logo mt-5">
+                  <i class="fa fa-umbrella fa-1x"></i>
+                </div>
+                <h3>Development</h3>
+                <p class="text-muted col-10 pb-4">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div
+                class="card rounded-1 bg-white text-center d-sm-flex justify-content-center align-items-center"
+              >
+                <div class="logo mt-5">
+                  <i class="fa-regular fa-gem fa-1x"></i>
+                </div>
+                <h3>Creative Design</h3>
+                <p class="text-muted col-10 pb-4">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div
+                class="card rounded-1 bg-white text-center d-sm-flex justify-content-center align-items-center"
+              >
+                <div class="logo mt-5">
+                  <i class="fa fa-television fa-1x"></i>
+                </div>
+                <h3>Fully Responsive</h3>
+                <p class="text-muted col-10 pb-4">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div
+                class="card rounded-1 bg-white text-center d-sm-flex justify-content-center align-items-center"
+              >
+                <div class="logo mt-5">
+                  <i class="fa fa-camera fa-1x"></i>
+                </div>
+                <h3>Retina Ready</h3>
+                <p class="text-muted col-10 pb-4">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Works -->
+      <section id="works" class="py-5">
+        <div class="container my-5">
+          <header>
+            <div class="heading_content">
+              <h3>Portfolio.</h3>
+            </div>
+          </header>
+          <ul
+            class="nav nav-pills mb-5 d-flex justify-content-center align-items-center mt-5"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-all-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-all"
+                type="button"
+                role="tab"
+                aria-controls="pills-all"
+                aria-selected="true"
+              >
+                <span>all</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-brand-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-brand"
+                type="button"
+                role="tab"
+                aria-controls="pills-brand"
+                aria-selected="false"
+              >
+                <span>brand</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-design-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-design"
+                type="button"
+                role="tab"
+                aria-controls="pills-design"
+                aria-selected="false"
+              >
+                <span>design</span>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-graphic-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-graphic"
+                type="button"
+                role="tab"
+                aria-controls="pills-graphic"
+                aria-selected="false"
+              >
+                <span>graphic</span>
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-all-tab"
+              tabindex="0"
+            >
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/1.jpg"
+                          alt="work img 1"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/2.jpg"
+                          alt="work img 2"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/3.jpg"
+                          alt="work img 3"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/4.jpg"
+                          alt="work img 4"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/5.jpg"
+                          alt="work img 5"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/6.jpg"
+                          alt="work img 6"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-brand"
+              role="tabpanel"
+              aria-labelledby="pills-brand-tab"
+              tabindex="1"
+            >
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/4.jpg"
+                          alt="work img 4"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/6.jpg"
+                          alt="work img 6"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-design"
+              role="tabpanel"
+              aria-labelledby="pills-design-tab"
+              tabindex="2"
+            >
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/5.jpg"
+                          alt="work img 5"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/4.jpg"
+                          alt="work img 4"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-graphic"
+              role="tabpanel"
+              aria-labelledby="pills-graphic-tab"
+              tabindex="3"
+            >
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/1.jpg"
+                          alt="work img 1"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/3.jpg"
+                          alt="work img 3"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="work_content">
+                      <div class="img_holder">
+                        <img
+                          src="/imgs/portfolio/5.jpg"
+                          alt="work img 5"
+                          class="img-fluid w-100"
+                        />
+                        <div
+                          class="work_overlay bg-light d-flex flex-column justify-content-center align-items-center"
+                        >
+                          <h3>Web Design</h3>
+                          <div
+                            class="work_icons d-flex justify-content-center align-items-center column-gap-1"
+                          >
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-chain-broken"></i
+                            ></span>
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i class="fa fa-search-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- clients -->
+      <section id="clients" class="pt-5 bg-body-tertiary">
+        <div class="container my-5">
+          <header>
+            <div class="heading_content">
+              <h3>Testimonials.</h3>
+            </div>
+          </header>
+          <div class="row justify-content-center align-items-center my-5 py-5">
+            <div class="col-12">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div
+                      class="clients_content d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        src="/imgs/testi/testi-1.jpg"
+                        class="img-fluid my-3"
+                        alt="test1"
+                      />
+                      <div class="text-center">
+                        <p class="text-secondary col-10 mx-auto mb-4">
+                          Lorem Ipsum has been the industry's standard dummy
+                          text ever since the when an unknown printer took a
+                          galley of type and scrambled it to make a type
+                          specimen book.
+                        </p>
+                        <div class="client_author">
+                          <h6 class="fw-bold text-dark">Alex Smith</h6>
+                          <span class="text-secondary">Envato Customer</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="clients_content d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        src="/imgs/testi/testi-2.jpg"
+                        class="img-fluid my-3"
+                        alt="test2"
+                      />
+                      <div class="text-center">
+                        <p class="text-secondary col-10 mx-auto mb-4">
+                          Lorem Ipsum has been the industry's standard dummy
+                          text ever since the when an unknown printer took a
+                          galley of type and scrambled it to make a type
+                          specimen book.
+                        </p>
+                        <div class="client_author">
+                          <h6 class="fw-bold text-dark">Alex Smith</h6>
+                          <span class="text-secondary">Envato Customer</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="clients_content d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <img
+                        src="/imgs/testi/testi-3.jpg"
+                        class="img-fluid my-3"
+                        alt="test3"
+                      />
+                      <div class="text-center">
+                        <p class="text-secondary col-10 mx-auto mb-4">
+                          Lorem Ipsum has been the industry's standard dummy
+                          text ever since the when an unknown printer took a
+                          galley of type and scrambled it to make a type
+                          specimen book.
+                        </p>
+                        <div class="client_author">
+                          <h6 class="fw-bold text-dark">Alex Smith</h6>
+                          <span class="text-secondary">Envato Customer</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bg-white py-5">
+          <div class="container">
+            <div class="row g-0">
+              <div class="col-lg-3">
+                <div class="counter_content text-center p-5">
+                  <i class="fa fa-users fa-2x pb-3"></i>
+                  <h3
+                    data-purecounter-start="0"
+                    data-purecounter-end="850"
+                    class="counter purecounter"
+                  >
+                    0
+                  </h3>
+                  <p class="text-secondary">Happy Customers</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="counter_content text-center p-5">
+                  <i class="fa fa-thumbs-up fa-2x pb-3"></i>
+                  <h3
+                    data-purecounter-start="0"
+                    data-purecounter-end="230"
+                    class="counter purecounter"
+                  >
+                    0
+                  </h3>
+                  <p class="text-secondary">Complete Projects</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="counter_content text-center p-5">
+                  <i class="fa fa-bullhorn fa-2x pb-3"></i>
+                  <h3
+                    data-purecounter-start="0"
+                    data-purecounter-end="9450"
+                    class="counter purecounter"
+                  >
+                    0
+                  </h3>
+                  <p class="text-secondary">Lines Of Code</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="counter_content text-center p-5">
+                  <i class="fa fa-cloud-download fa-2x pb-3"></i>
+                  <h3
+                    data-purecounter-start="0"
+                    data-purecounter-end="750"
+                    class="counter purecounter"
+                  >
+                    0
+                  </h3>
+                  <p class="text-secondary">Files Downloaded</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- team -->
+      <section id="team" class="my-5 py-5 bg-body-tertiary">
+        <div class="container-fluid container-lg my-5">
+          <header>
+            <div class="heading_content">
+              <h3>Our Team.</h3>
+            </div>
+          </header>
+          <div class="row my-5 py-5 g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="team_content">
+                <div class="card rounded-bottom-1 rounded-top-0">
+                  <div class="card border-0">
+                    <figure class="m-0">
+                      <img src="/imgs/team/1.jpg" alt="team 1" class="w-100" />
+                      <figcaption class="card_img_overlay">
+                        <div class="social_icon d-flex">
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-facebook-f fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-twitter fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-pinterest fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-linkedin-in fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-footer p-3 text-center">
+                    <h4 class="p-0">John Doe</h4>
+                    <h5>front-end developer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="team_content">
+                <div class="card rounded-bottom-1 rounded-top-0">
+                  <div class="card border-0">
+                    <figure class="m-0">
+                      <img
+                        src="/imgs/team/2.jpg"
+                        alt="team 2"
+                        class="img-fluid w-100 rounded-0"
+                      />
+                      <figcaption class="card_img_overlay">
+                        <div class="social_icon d-flex">
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-facebook-f fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-twitter fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-pinterest fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-linkedin-in fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-footer p-3 text-center">
+                    <h4 class="p-0">John Doe</h4>
+                    <h5>front-end developer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="team_content">
+                <div class="card rounded-bottom-1 rounded-top-0">
+                  <div class="card border-0">
+                    <figure class="m-0">
+                      <img
+                        src="/imgs/team/1.jpg"
+                        alt="team 1"
+                        class="img-fluid w-100 rounded-0"
+                      />
+                      <figcaption class="card_img_overlay">
+                        <div class="social_icon d-flex">
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-facebook-f fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-twitter fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-pinterest fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                          <a href="#" class="me-3 text-decoration-none">
+                            <span
+                              class="d-flex justify-content-center align-items-center"
+                              ><i
+                                class="fa-brands fa-linkedin-in fa-3x"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                          </a>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="card-footer p-3 text-center">
+                    <h4 class="p-0">John Doe</h4>
+                    <h5>front-end developer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="my-4 py-4">
+        <div class="container">
+          <header>
+            <div class="heading_content">
+              <h3>Contact Us.</h3>
+            </div>
+          </header>
+          <div class="row my-5 py-5 g-3">
+            <div class="col-lg-4">
+              <div
+                class="contact_info text-center d-flex flex-column justify-content-center align-items-center row-gap-2"
+              >
+                <span class="icon mb-1"
+                  ><i class="fa fa-location-arrow fa-2x"></i
+                ></span>
+                <h6 class="fw-bold">Address</h6>
+                <p class="text-muted col-8">
+                  6834 Hollywood Blvd - Los Angeles CA
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="contact_info text-center d-flex flex-column justify-content-center align-items-center row-gap-2"
+              >
+                <span class="icon mb-1"
+                  ><i class="fa fa-envelope fa-2x"></i
+                ></span>
+                <h6 class="fw-bold">Email</h6>
+                <p class="text-muted">
+                  <a href="mailto:Support@website.com">Support@website.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="contact_info text-center d-flex flex-column justify-content-center align-items-center row-gap-2"
+              >
+                <span class="icon mb-1"><i class="fa fa-phone fa-2x"></i></span>
+                <h6 class="fw-bold">Phone</h6>
+                <p class="text-muted">
+                  <a href="tel:+2001065840005" class="text-decoration-none"
+                    >+20 010 658 40005</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <div class="row row-gap-3">
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control bg-body-tertiary"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control bg-body-tertiary"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="col-12">
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-control bg-body-tertiary"
+                  rows="7"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <input
+                  type="submit"
+                  value="Submit"
+                  class="button px-5 py-2 rounded-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container-fluid bg-dark text-center">
+        <div class="row">
+          <p class="text-secondary my-4">
+            Copy Right 2024 &copy; By Ashraf Salem All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/purecounter_vanilla.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/php_email_form/validate.js"></script>
+    <!-- local script -->
+    <script src="js/main.js"></script>
+    <!-- Setup and start animation! -->
+    <!-- Typed Script -->
+    <script src="js/typed.umd.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <script>
+      // for typed js
+      if ($(".text-slider").length == 1) {
+        var typed_strings = $(".text-slider-items").text();
+
+        var typed = new Typed(".text-slider", {
+          strings: typed_strings.split(", "),
+          typeSpeed: 50,
+          loop: true,
+          backDelay: 600,
+          backSpeed: 30,
+        });
+      }
+
+      // for counters
+      new PureCounter();
+
+      // for loading animation
+      $(".loadingScreen").animate(
+        {
+          height: "100vh",
+          top: "0px",
+          bottom: "0px",
+        },
+        100
+      );
+
+      // for animate progress bars
+      $(".p_95 ,.p_90, .p_80").animate(
+        {
+          width: "95%",
+        },
+        0
+      );
+      $(".p_90").animate(
+        {
+          width: "90%",
+        },
+        0
+      );
+      $(".p_80").animate(
+        {
+          width: "80%",
+        },
+        0
+      );
+    </script>
+  </body>
+</html>
